@@ -1,0 +1,140 @@
+.action {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    a {
+        position: relative;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
+        border: none;
+        width: 100%;
+        height: 7rem;
+        line-height: 7rem;
+        font-size: 2.4rem;
+        color: #fff;
+        perspective: 23rem;
+        background: #1B1C23;
+
+        span {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #5cef06;
+            margin: 0;
+            text-align: center;
+            box-sizing: border-box;
+            transition: all .3s;
+
+            &:first-child {
+                transform: rotateX(0deg);
+                transform-origin: 50% 50% -10px;
+            }
+
+            &:last-child {
+                opacity: 0;
+                box-shadow:
+                    -5px -5px 10px 0px transparent,
+                    -3px -3px 5px 0px transparent,
+                    5px 5px 10px 0px #5cef06,
+                    3px 3px 5px 0px #5cef06;
+                transform: rotateX(90deg);
+                transform-origin: 50% 50% -10px;
+            }
+        }
+
+    }
+
+    @media(hover:hover) {
+        a {
+            &:hover {
+                span {
+                    &:first-child {
+                        opacity: 0;
+                        background: transparent;
+                        transform: rotateX(-90deg);
+                    }
+    
+                    &:last-child {
+                        opacity: 1;
+                        transform: rotateX(0deg);
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width:480px) {
+        a {
+            font-size: 1.5rem;
+            height: 5rem;
+            line-height: 5rem;
+        }
+    }
+
+    @media (max-width: 320px) {
+
+        a {
+            font-size: 1.3rem;
+            height: 4rem;
+            line-height: 4rem;
+        }
+    }
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+    a {
+        font-size: 2.2rem;
+        color: #fff;
+        font-family: 'Playball', cursive;
+        margin-left: 0.4rem;
+    }
+
+    @include mobile {
+        img {
+            width: 3rem;
+        }
+        a {
+            font-size: 1.8rem;
+        }
+    }
+
+    @media(max-width:320px) {
+        img {
+            width: 2.3rem;
+        }
+        a {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.point {
+    &.red {
+        color: #ff3939;
+    }
+
+    &.pink {
+        color: #fb20be;
+    }
+
+    &.blue {
+        color: #868bff;
+    }
+
+    &.yellow {
+        color: #ffed4b;
+    }
+
+    &.green {
+        color: #5cef06;
+    }
+}
