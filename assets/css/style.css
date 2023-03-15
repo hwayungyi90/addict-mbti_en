@@ -831,7 +831,7 @@ body {
   margin-top: 10rem;
 }
 .result .wrap .result-wrap .result-comp h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 2rem;
   padding: 0.4rem 0;
@@ -888,10 +888,10 @@ body {
   background-size: cover;
 }
 .result .wrap .result-wrap .action a {
-  max-width: 27rem;
+  max-width: 32rem;
   height: 4rem;
   line-height: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 3rem;
   background: #0f1014;
 }
@@ -2149,6 +2149,4 @@ body {
   50% {
     transform: scale(1.05);
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
