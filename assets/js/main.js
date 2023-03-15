@@ -14,145 +14,145 @@ const question = {
 
     1: {
 
-        "title": "옷을 사러 갔는데<br /> 매장 직원이 내게 다가온다.",
+        "title": "You are free this weekend",
 
-        "A": "옷을 추천받거나 치수를 물어본다.",
+        "A": "Call your friends for a cocktail party",
 
-        "B": "슬쩍 자리를 피해서 쇼핑을 즐긴다.",
+        "B": "Netflix and chill",
 
-        "type": "EI",
+        "type": "ei",
 
     },
 
     2: {
 
-        "title": "오늘은 월요일!<br /> 술을 꼭 먹어야겠다.",
+        "title": "You are lost in the middle of a trip",
 
-        "A": "모든 친구들에게 나오라고 전화한다.",
+        "A": "Search Google Map",
 
-        "B": "혼술을 준비하려고 마트에 간다.",
+        "B": "Ask to random person on the street",
 
-        "type": "EI",
+        "type": "ei",
 
     },
 
     3: {
 
-        "title": "코로나 끝!<br /> 오랜만에 다같이 노래방을 갔다면?",
+        "title": "You see your ideal type at a party",
 
-        "A": '"내가 먼저 선빵!" 마이크부터 찾는다.',
+        "A": 'Ask him/her out',
 
-        "B": "노래를 찾고 있는척 스마트폰을 잠깐 본다.",
+        "B": "Wait till he/she checks you out",
 
-        "type": "EI",
+        "type": "ei",
 
     },
 
     4: {
 
-        "title": "자주 가는 음식점에<br /> 신메뉴가 나왔다면?",
+        "title": "If you have a $100 gift card",
 
-        "A": "무난하게 원래 먹던 걸로 시킨다.",
+        "A": "Buy your all-time favorite perfume",
 
-        "B": "무조건 신메뉴를 시켜본다.",
+        "B": "Try a new released perfume",
 
-        "type": "SN",
+        "type": "sn",
 
     },
 
     5: {
 
-        "title": "친구가 우울하다며 전화가 왔다.",
+        "title": "If your friend tells you about their relationship problems",
 
-        "A": '"음… 내 생각은…" 내 이야기를 해준다',
+        "A": 'Give him/her an advice and solution',
 
-        "B": '"왜 그래? 무슨 일이야? 그래서?" 다 받아준다',
+        "B": 'Try to understand and connect with him/her',
 
-        "type": "SN",
+        "type": "sn",
 
     },
 
     6: {
 
-        "title": "오랜만에 친구들을 만나러 간다.<br /> 오늘 뭐 입지?",
+        "title": "If you have a party tomorrow",
 
-        "A": "오늘 기분에 따라 옷을 고른다.",
+        "A": "Decide last minute",
 
-        "B": "전날 미리 코디해놓는다.",
+        "B": "Plan your outfit in advance",
 
-        "type": "SN",
+        "type": "sn",
 
     },
 
     7: {
 
-        "title": "친구가 힘들게 돈을 모아<br /> 명품을 샀다.",
+        "title": "If your friend tells you about going on a Europe trip",
 
-        "A": "얼마주고 샀어?",
+        "A": "Ask him/her travel expense",
 
-        "B": "오~ 신상~ 그동안 고생했다!",
+        "B": "Ask how excited he/she is",
 
-        "type": "TF",
+        "type": "tf",
 
     },
 
     8: {
 
-        "title": "옆자리에 내 이상형이 있다.<br /> 친구가 번호를 물어봐준다면?",
+        "title": "If you're on Netflix before bed, you choose",
 
-        "A": "에이 됐어. 그냥 앉아있자.",
+        "A": "Reality show",
 
-        "B": "아 진짜? 나야 고맙지! 잘 되면 쏠게!",
+        "B": "Drama series",
 
-        "type": "TF",
+        "type": "tf",
 
     },
 
     9: {
 
-        "title": "오늘 일이 안풀린다.<br /> 왜그러지?",
+        "title": "If your friend asks you if he/she gained weight",
 
-        "A": '"오늘만 있는게 아니잖아! 할 수 있어!" 생각한다.',
+        "A": '"You should start working out"',
 
-        "B": '"아... 또 나야?" 라고 생각한다.',
+        "B": '"No, you look fit as always"',
 
-        "type": "TF",
+        "type": "tf",
 
     },
 
     10: {
 
-        "title": "썸남(녀)과 데이트 중<br /> 썸남(녀)의 친구를 만났다.",
+        "title": "What reminds you when you hear the word 'peach'?",
 
-        "A": "썸남(녀)가 소개시켜줄 때까지 기다린다.",
+        "A": "Sweet, fruity, juicy",
 
-        "B": "먼저 다가가 인사를 건넨다.",
+        "B": "Justin Bieber - Peaches",
 
-        "type": "JP",
+        "type": "jp",
 
     },
 
     11: {
 
-        "title": "가고 싶은 음식점을 갔는데<br /> 웨이팅이 3시간이다.",
+        "title": "Your anniversary is coming up",
 
-        "A": "비슷한 곳을 찾아 다른 곳으로 간다.",
+        "A": "Make a reservation for restaurant",
 
-        "B": "기다리자! 여기가 핫플이야!",
+        "B": "Plan the whole date",
 
-        "type": "JP",
+        "type": "jp",
 
     },
 
     12: {
 
-        "title": "몇 년 만에<br /> 친구에게 연락이 왔다.",
+        "title": "If you are planning on a long drive",
 
-        "A": "잘 지냈어? 언제 만날래? 하며 약속을 잡는다.",
+        "A": "Make Spotify playlist in advance",
 
-        "B": "잘 지냈어? 하며 가벼운 안부를 물어본다.",
+        "B": "Pick any playlist on Spotify",
 
-        "type": "JP",
+        "type": "jp",
 
     },
 
@@ -208,10 +208,10 @@ function next() {
         loader();
         // mbti 타입
         var mbti = "";
-        ($("#EI").val() < 2 ? mbti += "I" : mbti += "E");
-        ($("#SN").val() < 2 ? mbti += "N" : mbti += "S");
-        ($("#TF").val() < 2 ? mbti += "F" : mbti += "T");
-        ($("#JP").val() < 2 ? mbti += "P" : mbti += "J");
+        ($("#ei").val() < 2 ? mbti += "i" : mbti += "e");
+        ($("#sn").val() < 2 ? mbti += "n" : mbti += "s");
+        ($("#tf").val() < 2 ? mbti += "f" : mbti += "t");
+        ($("#jp").val() < 2 ? mbti += "p" : mbti += "j");
         setTimeout(() => {
             // 페이지이동
             window.location.href = '/result/' + mbti + '.html';
