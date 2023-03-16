@@ -755,9 +755,12 @@ body {
                     max-width: 32rem;
                     height: 4rem;
                     line-height: 4rem;
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     margin-top: 3rem;
                     background: #0f1014;
+                    @include mobile {
+                    font-size: 1.1rem;
+                    }
                 }
             }
 

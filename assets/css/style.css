@@ -230,12 +230,11 @@ a {
 }
 @media (max-width: 390px) {
   .action a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 320px) {
   .action a {
-    font-size: 1.1rem;
     height: 4rem;
     line-height: 4rem;
   }
@@ -911,9 +910,14 @@ body {
   max-width: 32rem;
   height: 4rem;
   line-height: 4rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 3rem;
   background: #0f1014;
+}
+@media (max-width: 768px) {
+  .result .wrap .result-wrap .action a {
+    font-size: 1.1rem;
+  }
 }
 .result .wrap .result-wrap .instagram {
   margin: 10rem 0 2rem;
