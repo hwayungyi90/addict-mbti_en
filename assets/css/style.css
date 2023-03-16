@@ -891,7 +891,7 @@ body {
   max-width: 32rem;
   height: 4rem;
   line-height: 4rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin-top: 3rem;
   background: #0f1014;
 }
@@ -1793,7 +1793,7 @@ body {
   .result .container .wrap .result-wrap .action a {
     height: 3.5rem;
     line-height: 3.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .result .container .wrap .result-wrap .result-content ul li {
     font-size: 1.4rem;
