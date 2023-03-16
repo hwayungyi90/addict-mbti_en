@@ -223,14 +223,19 @@ a {
 }
 @media (max-width: 480px) {
   .action a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     height: 5rem;
     line-height: 5rem;
   }
 }
+@media (max-width: 390px) {
+  .action a {
+    font-size: 1.2rem;
+  }
+}
 @media (max-width: 320px) {
   .action a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     height: 4rem;
     line-height: 4rem;
   }
@@ -678,6 +683,11 @@ body {
 .loading .container .wrap .loading-contents .random img {
   box-shadow: 6px 6px 20px #31333A;
 }
+@media (max-width: 768px) {
+  .loading .container .wrap h1 {
+    font-size: 2.8rem;
+  }
+}
 @media (max-width: 480px) {
   .loading .container .wrap {
     padding: 5rem 0;
@@ -693,6 +703,16 @@ body {
   }
   .loading .container .wrap .loading-contents .random {
     margin-top: -12.5rem;
+  }
+}
+@media (max-width: 410px) {
+  .loading .container .wrap h1 {
+    font-size: 2.05rem;
+  }
+}
+@media (max-width: 360px) {
+  .loading .container .wrap h1 {
+    font-size: 1.8rem;
   }
 }
 
