@@ -242,6 +242,12 @@ body {
 
 
     }
+    @media (max-width: 414px) {
+        .wrap .intro-title h2 {
+            font-size: 2rem;
+            line-height: 2.8rem;
+        }
+    }
 
     @media(max-width: 320px) {
         min-height: 100vh;
@@ -2022,6 +2028,10 @@ body {
     }
 
     @media(max-width: 414px) {
+        .container .wrap .result-wrap .share-conts h3 {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
         &.enfj {
             h2 {
                 &:first-child {

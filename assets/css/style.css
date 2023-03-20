@@ -223,7 +223,7 @@ a {
 }
 @media (max-width: 480px) {
   .action a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     height: 5rem;
     line-height: 5rem;
   }
@@ -484,6 +484,12 @@ body {
     right: -0.5rem;
     width: 5rem;
     height: 5rem;
+  }
+}
+@media (max-width: 414px) {
+  .intro .wrap .intro-title h2 {
+    font-size: 2rem;
+    line-height: 2.8rem;
   }
 }
 @media (max-width: 320px) {
@@ -1774,6 +1780,10 @@ body {
   }
 }
 @media (max-width: 414px) {
+  .result .container .wrap .result-wrap .share-conts h3 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
   .result.enfj h2:first-child:before {
     margin-left: -12rem;
   }
@@ -2173,4 +2183,6 @@ body {
   50% {
     transform: scale(1.05);
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
