@@ -8,6 +8,14 @@
     <meta property="og:title" content="A'ddict">
     <meta property="og:description" content="Find your Signature Perfume Personality!">
     <meta property="og:image" content="/assets/images/img_og.jpg">
+    <!-- 캐시를 바로 만료시킴. -->
+    <meta http-equiv="Expires" content="-1" />
+
+    <!-- 페이지 로드시마다 페이지를 캐싱하지 않음. (HTTP 1.0) -->
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <!-- 페이지 로드시마다 페이지를 캐싱하지 않음. (HTTP 1.1) -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
     <title>A'ddict</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -104,7 +112,7 @@
         </div>
     </div>
 
-    <script src="assets/js/jquery-1.12.2.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js?ver=1.0"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
