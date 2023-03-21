@@ -10,9 +10,10 @@ function share(sns) {
         var url = "http://twitter.com/share?url=" + encodeURIComponent(thisUrl) + "&text=" + encodeURIComponent(snsTitle);
         window.open(url, "tweetPop", "width=486, height=286,scrollbars=yes");
     }
-    else{
-        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&text=" + encodeURIComponent(snsTitle);
-        window.open(url, "", "width=486, height=286");        
+    else {
+        var pImg = "/assets/images/img_og.jpg"
+        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&media=" + encodeURLCompnent(pImg) + "&text=" + encodeURIComponent(snsTitle);
+        window.open(url, "", "width=800, height=500");        
 
         // 카카오톡
         // // 사용할 앱의 JavaScript 키 설정
