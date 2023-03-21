@@ -11,9 +11,9 @@ function share(sns) {
         window.open(url, "tweetPop", "width=486, height=286,scrollbars=yes");
     }
     else {
-        var pImg = "https://addictmbtien.netlify.app/assets/images/img_og.jpg"
-        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&media=" + encodeURLCompnent(pImg) + "&text=" + encodeURIComponent(snsTitle);
-        window.open(url, "", "width=800, height=500");        
+        // var pImg = "/assets/images/img_og.jpg"
+        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&media=" + "https://addictmbtien.netlify.app/assets/images/img_og.jpg" + "&text=" + encodeURIComponent(snsTitle);
+        window.open(url, "", "width=486, height=286");        
 
         // 카카오톡
         // // 사용할 앱의 JavaScript 키 설정

@@ -37,21 +37,21 @@
             }
 
             &:last-child {
-                // opacity: 0;
-                // box-shadow:
-                //     -5px -5px 10px 0px transparent,
-                //     -3px -3px 5px 0px transparent,
-                //     5px 5px 10px 0px #5cef06,
-                //     3px 3px 5px 0px #5cef06;
-                // -webkit-box-shadow:
-                //     -5px -5px 10px 0px transparent,
-                //     -3px -3px 5px 0px transparent,
-                //     5px 5px 10px 0px #5cef06,
-                //     3px 3px 5px 0px #5cef06;
-                // transform: rotateX(90deg);
-                // -webkit-transform: rotateX(90deg);
-                // transform-origin: 50% 50% -10px;
-                // -webkit-transform-origin: 50% 50% -10px;
+                opacity: 0;
+                box-shadow:
+                    -5px -5px 10px 0px transparent,
+                    -3px -3px 5px 0px transparent,
+                    5px 5px 10px 0px #5cef06,
+                    3px 3px 5px 0px #5cef06;
+                -webkit-box-shadow:
+                    -5px -5px 10px 0px transparent,
+                    -3px -3px 5px 0px transparent,
+                    5px 5px 10px 0px #5cef06,
+                    3px 3px 5px 0px #5cef06;
+                transform: rotateX(90deg);
+                -webkit-transform: rotateX(90deg);
+                transform-origin: 50% 50% -10px;
+                -webkit-transform-origin: 50% 50% -10px;
                 display: none;
             }
         }
