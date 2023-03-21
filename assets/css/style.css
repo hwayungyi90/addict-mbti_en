@@ -202,23 +202,31 @@ a {
 }
 .action a span:first-child {
   transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
   transform-origin: 50% 50% -10px;
+  -webkit-transform-origin: 50% 50% -10px;
 }
 .action a span:last-child {
   opacity: 0;
   box-shadow: -5px -5px 10px 0px transparent, -3px -3px 5px 0px transparent, 5px 5px 10px 0px #5cef06, 3px 3px 5px 0px #5cef06;
+  -webkit-box-shadow: -5px -5px 10px 0px transparent, -3px -3px 5px 0px transparent, 5px 5px 10px 0px #5cef06, 3px 3px 5px 0px #5cef06;
   transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
   transform-origin: 50% 50% -10px;
+  -webkit-transform-origin: 50% 50% -10px;
 }
 @media (hover: hover) and (pointer: fine) {
   .action a:hover span:first-child {
     opacity: 0;
     background: transparent;
+    -webkit-background: transparent;
     transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
   }
   .action a:hover span:last-child {
     opacity: 1;
     transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
   }
 }
 @media (max-width: 480px) {
