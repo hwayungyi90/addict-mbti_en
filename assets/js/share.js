@@ -11,7 +11,7 @@ function share(sns) {
         window.open(url, "tweetPop", "width=486, height=286,scrollbars=yes");
     }
     else{
-        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl);
+        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&text=" + encodeURIComponent(snsTitle);
         window.open(url, "", "width=486, height=286");        
 
         // 카카오톡
