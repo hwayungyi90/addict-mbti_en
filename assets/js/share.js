@@ -11,7 +11,7 @@ function share(sns) {
         window.open(url, "tweetPop", "width=486, height=286,scrollbars=yes");
     }
     else {
-        var pImg = "/assets/images/img_og.jpg"
+        var pImg = "https://addictmbtien.netlify.app/assets/images/img_og.jpg"
         var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&media=" + encodeURLCompnent(pImg) + "&text=" + encodeURIComponent(snsTitle);
         window.open(url, "", "width=800, height=500");        
 
