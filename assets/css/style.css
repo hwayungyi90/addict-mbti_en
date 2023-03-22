@@ -214,7 +214,6 @@ a {
   -webkit-transform: rotateX(90deg);
   transform-origin: 50% 50% -10px;
   -webkit-transform-origin: 50% 50% -10px;
-  display: none;
 }
 @media (hover: hover) and (pointer: fine) {
   .action a:hover span:first-child {
