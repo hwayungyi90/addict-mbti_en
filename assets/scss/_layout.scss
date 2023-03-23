@@ -31,7 +31,9 @@
 
             &:first-child {
                 transform: rotateX(0deg);
+                -webkit-transform: rotateX(0deg);
                 transform-origin: 50% 50% -10px;
+                -webkit-transform-origin: 50% 50% -10px;
             }
 
             &:last-child {
@@ -41,8 +43,15 @@
                     -3px -3px 5px 0px transparent,
                     5px 5px 10px 0px #5cef06,
                     3px 3px 5px 0px #5cef06;
+                -webkit-box-shadow:
+                    -5px -5px 10px 0px transparent,
+                    -3px -3px 5px 0px transparent,
+                    5px 5px 10px 0px #5cef06,
+                    3px 3px 5px 0px #5cef06;
                 transform: rotateX(90deg);
+                -webkit-transform: rotateX(90deg);
                 transform-origin: 50% 50% -10px;
+                -webkit-transform-origin: 50% 50% -10px;
             }
         }
 
@@ -55,12 +64,15 @@
                     &:first-child {
                         opacity: 0;
                         background: transparent;
+                        -webkit-background: transparent;
                         transform: rotateX(-90deg);
+                        -webkit-transform: rotateX(-90deg);
                     }
     
                     &:last-child {
                         opacity: 1;
                         transform: rotateX(0deg);
+                        -webkit-transform: rotateX(0deg);
                     }
                 }
             }

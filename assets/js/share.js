@@ -11,22 +11,27 @@ function share(sns) {
         window.open(url, "tweetPop", "width=486, height=286,scrollbars=yes");
     }
     else {
-        // 사용할 앱의 JavaScript 키 설정
-        Kakao.init('fe12b1906251554b53a917060c58eadf');
-        // 카카오링크 버튼 생성
-        Kakao.Link.createDefaultButton({
-            container: '#btnKakao', // HTML에서 작성한 ID값
-            objectType: 'feed',
-            content: {
-                title: "에이딕트", // 보여질 제목
-                description: "에이딕트", // 보여질 설명
-                imageUrl: thisUrl, // 콘텐츠 URL
-                link: {
-                    mobileWebUrl: thisUrl,
-                    webUrl: thisUrl
-                }
-            }
-        });
+        // var pImg = "/assets/images/img_og.jpg"
+        var url = "https://www.pinterest.com/pin/create/button/?url=" + encodeURIComponent(thisUrl) + "&media=" + "https://addictmbtien.netlify.app/assets/images/img_og.jpg" + "&text=" + encodeURIComponent(snsTitle);
+        window.open(url, "", "width=486, height=286");        
+
+        // 카카오톡
+        // // 사용할 앱의 JavaScript 키 설정
+        // Kakao.init('fe12b1906251554b53a917060c58eadf');
+        // // 카카오링크 버튼 생성
+        // Kakao.Link.createDefaultButton({
+        //     container: '#btnKakao', // HTML에서 작성한 ID값
+        //     objectType: 'feed',
+        //     content: {
+        //         title: "에이딕트", // 보여질 제목
+        //         description: "에이딕트", // 보여질 설명
+        //         imageUrl: thisUrl, // 콘텐츠 URL
+        //         link: {
+        //             mobileWebUrl: thisUrl,
+        //             webUrl: thisUrl
+        //         }
+        //     }
+        // });
     }
 }
 
