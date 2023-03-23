@@ -626,11 +626,11 @@ body {
 
             .result-title {
                 margin-top: 6rem;
-                padding: 1.8rem 0;
+                padding: 2.2rem 0;
                 background: linear-gradient(90.05deg, #5CEF06 0.04%, #B2FF41 0.04%, #5CEF06 99.96%);
 
                 h3 {
-                    font-size: 3rem;
+                    font-size: 4.2rem;
                     font-weight: 700;
                     font-style: italic;
                 }
@@ -760,13 +760,23 @@ body {
                 a {
                     max-width: 32rem;
                     height: 4rem;
-                    line-height: 4rem;
-                    font-size: 1.3rem;
+                    line-height: 3rem;
+                    font-size: 1.82rem;
                     margin-top: 3rem;
                     background: #0f1014;
-                    @include mobile {
-                    font-size: 1.1rem;
+                    // @include mobile {
+                    // font-size: 1.1rem;
+                    // }
+                    > span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
+                }
+            }
+            .result-content .action {
+                a {
+                    height: 8.2rem;
                 }
             }
 
@@ -1408,7 +1418,7 @@ body {
 
             .result-wrap {
                 .result-title h3 {
-                    font-size: 2.4rem;
+                    //font-size: 2.4rem;
                 }
 
                 .result-label {
@@ -1501,7 +1511,7 @@ body {
                         padding: 1.6rem 0;
 
                         h3 {
-                            font-size: 2rem;
+                            font-size: 2.8rem;
                         }
                     }
 
@@ -2088,7 +2098,7 @@ body {
                     .result-title {
                         padding: 1.2rem 0;
                         h3 {
-                            font-size: 1.7rem;
+                            font-size: 2.38rem;
                         }
                     }
                     .result-content {
@@ -2100,7 +2110,13 @@ body {
                     .action a {
                         height: 3.5rem;
                         line-height: 3.5rem;
-                        font-size: 1rem;
+                        font-size: 1.4rem;
+                    }
+                    .result-content .action {
+                        a {
+                            height: 7rem;
+                            line-height: 2.5rem;
+                        }
                     }
 
                     .result-content ul li {
